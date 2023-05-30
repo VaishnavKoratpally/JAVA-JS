@@ -40,7 +40,7 @@ class Home extends React.Component {
           <a href="http://localhost/register.php" class="btn-more more-btn">Register</a>
         </li>
         <li class="nav-item2">
-          <a href="http://localhost/dashboard.php" class="btn-more more-btn">Sign In</a>
+          <a href="http://localhost/dashboard.php" class="btn-more more-btn">Login</a>
         </li>
 		  
 		  

@@ -37,7 +37,7 @@ class Home extends React.Component {
           <Link activeClass="active" smooth={true} spy={true} offset={-10} duration={500} to="booking-section">Contact Us</Link>
         </li>
         <li class="nav-item2">
-          <a href="http://localhost/register.php" class="btn-more more-btn">Sign Up</a>
+          <a href="http://localhost/register.php" class="btn-more more-btn">Register</a>
         </li>
         <li class="nav-item2">
           <a href="http://localhost/dashboard.php" class="btn-more more-btn">Sign In</a>

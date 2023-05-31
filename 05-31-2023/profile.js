@@ -9,7 +9,7 @@ const profile={
     hobbies:{
         tvSeries:["HIMYM", "B99"],
         sports:["Cricket, Badminton, Table Tennis"],
-        videogames:["God of War, WWE"],
+        videogames:["God of War", "WWE"],
 
     }
 }

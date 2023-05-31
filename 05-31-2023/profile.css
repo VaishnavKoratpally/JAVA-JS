@@ -1,6 +1,6 @@
 .profile{
     display: flex;
-    align-content: start;
-    flex-wrap: wrap;
-    padding-left: 596px
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }

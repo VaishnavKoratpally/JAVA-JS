@@ -1,0 +1,6 @@
+.profile{
+    display: flex;
+    align-content: start;
+    flex-wrap: wrap;
+    padding-left: 596px
+}

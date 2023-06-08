@@ -15,22 +15,6 @@ public class Csv implements Comparable<Csv> {
     public int compareTo(Csv o) {
         return this.lastName.compareTo(o.lastName);
     }
-//    public void writeCSV(){
-//        String filePath = "C://Users//om//Desktop//re.csv";
-//        try (FileWriter writer = new FileWriter(filePath)) {
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        try (FileWriter writer = new FileWriter(filePath)) {
-//            writer.append("FirstName,LastName,GPA\n");
-//            writer.append("david,tim,3.5\n");
-//            writer.append("Jane ,Smith,2.8\n");
-//            writer.flush();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//
-//    }
 
     public List<Csv> readCSV() {
             String filePath = "C://Users//om//Desktop//re.csv";

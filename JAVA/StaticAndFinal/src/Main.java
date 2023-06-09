@@ -1,3 +1,5 @@
+import java.util.*;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -38,9 +40,26 @@ public class Main {
 
 //        reverseArray.reverseAnArray(arr);
 ////        System.out.println(res);
-        int[] arr= {1,2,3,4,5};
-        Rotate rotate=new Rotate();
-        rotate.rotateArray(arr,2);
+//        int[] arr= {1,2,3,4,5};
+//        Rotate rotate=new Rotate();
+//        rotate.rotateArray(arr,2);
+//        Anagram a=new Anagram();
+//        System.out.println(a.returnAnagram("anagram","nagaram"));
+//        StringRotation sr=new StringRotation();
+//        System.out.println(sr.checkRotatedArrays("JavaJ2eeStrutsHibernate","StrutsHibernateJavaJ2ee"));
+//        Vowels v= new Vowels();
+//        v.vowelCount("aeiousuuuu");
+//        StringReverse sr=new StringReverse();
+//        sr.reverseString("Java J2EE Reverse Me");
+//        Csv csv=new Csv();
+////        csv.writeCSV();
+//        List<Csv> l=csv.readCSV();
+//        Collections.sort(l);
+//        Collections.sort(l);
+//        System.out.println();
+//        System.out.println("After Sorting");
+//        csv.printList(l);
+
 
 
 

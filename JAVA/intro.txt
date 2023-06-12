@@ -1,0 +1,24 @@
+Intro: 
+
+I’m Vaishnav, currently working as a full-stack developer with xxxx. I have about 8 years of professional experience in developing enterprise software applications including testing, maintenance, 
+and production support and currently working on an application in the financial domain. As a full-stack developer, I have worked with front-end technologies like - React, Angular, HTML, CSS, JS, redux, axios, bootstrap, jquery, 
+then backend technologies like - Java8, J2EE, REST, Spring, Springboot, JPA, Hibernate. I have dealt with both relational and non relational databases like MySQL, oracle, and DynamoDB. 
+I have deployed the applications in AWS and used its services like EC2, S3, lambda, ECR, ECS, cloudformation etc. I’ve also used package management tools, build tools, CI/Cd tools 
+such as node, npm, maven, jest, cypress, selenium , Junit, mockito,  jasmine, karma, Jenkins, CICD tools, Argo CD.
+
+Recent project:
+I’m currently working with xxxx on a Client transfer which is an intranet application, which used to facilitate various kinds of money transfer transactions that are ACH, Cheques,
+ Wires, Journals. We designed our UI on single page application using Angular and we have separate screens for each type of money transfer transactions that our field officers, 
+financial advisors, bank specialists can use. In backend we have microservices for all different kind of transactions and there are hosted on cloud. We used AWS, Relational DB 
+which are sequel server DB instances. We also have Redis cache in front of all our DBs which handle all our read operations. 
+We have separate DB instances for all read and write operations. And all the microservices which are hosted on AWS are hosted on auto scaling group, 
+each microservices have their own scaling policies which are auto scaling group policies (JSON policies) to scale in and scale out instances. 
+Coming to technical stack, we used Java, we have microservices/API/webservices with Java/OracleDB/MySQLDB/MSDB/NoSQLDB/ProcedureDB 
+we write the query to fetch the data from database and we do necessary manipulations in API, and we send data to UI as a JSON. 
+ We connect to the DB using Hiberate(ORM)/JDBC. Coming to UI, I also been part of UI development, we use Angular/React as a front-end technology to develop 
+a web app or single page application. We consume API response from the backend and update the UI respectively. We used Agile methodology to implement the project with each 
+sprint being two weeks. Used Jira as the project management tool.
+
+
+
+              

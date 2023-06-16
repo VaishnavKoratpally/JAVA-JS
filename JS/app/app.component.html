@@ -1,0 +1,15 @@
+<header class="header">
+  <nav class="navigation">
+    <ul class="menu">
+      <li class="menu-item">Profile</li>
+      <li class="menu-item">Contact</li>
+      <li class="menu-item" *ngIf="!isLoggedIn" (click)="login()">Login</li>
+      <li class="menu-item" *ngIf="isLoggedIn" (click)="logout()">Logout</li>
+    </ul>
+    <div class="search-box">
+      <input type="text" placeholder="Search" />
+      <button>Search</button>
+    </div>
+  </nav>
+</header>
+<app-sidebar></app-sidebar>

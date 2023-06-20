@@ -24,6 +24,7 @@ public class DifferentTraversals {
         while (it.hasNext()){
             System.out.println(it.next());
         }
+        list.forEach(System.out::println);
 
         Stream.of(list).parallel().forEach(System.out::println);
 

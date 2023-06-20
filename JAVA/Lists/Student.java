@@ -42,7 +42,8 @@ public class Student {
         students.add(st3);
         System.out.println("student list before removing : ");
         displayList();
-        double gpa=calculateGPA();
+        double gpa= students.stream().mapToDouble(s-> s.GPA).average().orElse(0.0);
+
         students.removeIf(s->s.GPA<gpa);
         System.out.println("student list after removing : ");
         displayList();

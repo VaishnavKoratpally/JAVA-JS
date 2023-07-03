@@ -9,6 +9,10 @@ public class RemoveDuplicates {
         for (char c: str.toCharArray()) {
             hs.add(c);
         }
+        StringBuilder sb = new StringBuilder();
+        for (Character element : set) {
+            sb.append(element);
+        }
         System.out.println(hs);
     }
 }

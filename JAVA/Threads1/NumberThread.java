@@ -8,5 +8,5 @@ public class NumberThread extends Thread {
                 System.out.println(i);
             }
         }
-    }
+}
 
